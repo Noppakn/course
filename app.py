@@ -162,5 +162,4 @@ def dashboard():
                            subjectsperlevel=subjectsperlevel, yearwiseprofitmap=yearwiseprofitmap, subscriberscountmap=subscriberscountmap, profitmonthwise=profitmonthwise, monthwisesub=monthwisesub)
 
 
-if __name__ == '__main__':
-    app.run(debug=True)
+app.run(debug=True)
